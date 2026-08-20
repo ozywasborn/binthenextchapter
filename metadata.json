@@ -1,0 +1,8 @@
+{
+  "name": "B In the Next Chapter!",
+  "description": "Activity logger and goal countdown tracker with points accumulation, category breakdown, media conversion, and gallery view.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
