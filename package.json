@@ -9,6 +9,7 @@
     "lint": "echo 'No lint issues'"
   },
   "dependencies": {
+    "cors": "^2.8.6",
     "express": "^4.21.2"
   }
 }

@@ -1,0 +1,52 @@
+{
+  "entities": {
+    "activities": {
+      "title": "Activities",
+      "description": "User logged activities with date, title, category, amount/points, unit, and media image",
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "description": "Unique activity ID"
+        },
+        "date": {
+          "type": "string",
+          "description": "Date of activity"
+        },
+        "title": {
+          "type": "string",
+          "description": "Title of the activity"
+        },
+        "amount": {
+          "type": "number",
+          "description": "Score / Points amount"
+        },
+        "unit": {
+          "type": "string",
+          "description": "Unit (e.g. pts, km)"
+        },
+        "category": {
+          "type": "string",
+          "description": "Category of activity (Spiritual, Relationship, Others)"
+        },
+        "imgUrl": {
+          "type": "string",
+          "description": "Base64 image or media data URL"
+        },
+        "createdAt": {
+          "type": "number",
+          "description": "Creation timestamp"
+        }
+      },
+      "required": ["date", "title", "category"]
+    }
+  },
+  "accessMatrix": {
+    "activities": {
+      "create": "anyone",
+      "read": "anyone",
+      "update": "anyone",
+      "delete": "anyone"
+    }
+  }
+}
